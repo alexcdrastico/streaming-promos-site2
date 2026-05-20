@@ -1,0 +1,37 @@
+name: Actualizar promociones diariamente
+
+on:
+  schedule:
+    # Cada día a las 7:00 UTC (9:00 hora España en verano)
+    - cron: "0 7 * * *"
+  workflow_dispatch:   # Permite lanzarlo manualmente desde GitHub
+
+permissions:
+  contents: write      # Necesario para hacer el commit automático
+
+jobs:
+  update-promos:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Instalar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        run: pip install requests beautifulsoup4
+
+      - name: Ejecutar scraper
+        run: python scripts/check_promos.py
+
+      - name: Commit y push si hubo cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add promos.json
+          # Solo hace commit si promos.json cambió
+          git diff --staged --quiet || git commit -m "chore: actualizar promociones $(date -u +%Y-%m-%d)"
+          git push

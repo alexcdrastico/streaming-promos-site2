@@ -1,0 +1,106 @@
+{
+  "last_updated": "2026-05-20T17:00:00Z",
+  "last_updated_display": "20 de mayo de 2026",
+  "platforms": [
+    {
+      "id": "max",
+      "name": "Max (HBO)",
+      "category": "video",
+      "active": false,
+      "promo_label": null,
+      "cta_url": "https://www.max.com/es/es/subscribe",
+      "logo": "https://cdn.simpleicons.org/hbo/000000",
+      "logo_bg": "#000"
+    },
+    {
+      "id": "skyshowtime",
+      "name": "SkyShowtime",
+      "category": "video",
+      "active": false,
+      "promo_label": null,
+      "cta_url": "https://www.skyshowtime.com/es/upgrade",
+      "logo": "https://cdn.simpleicons.org/skyshowtime",
+      "logo_bg": "#0b0c10"
+    },
+    {
+      "id": "disneyplus",
+      "name": "Disney+",
+      "category": "video",
+      "active": false,
+      "promo_label": null,
+      "cta_url": "https://www.disneyplus.com/es-es/subscribe",
+      "logo": "https://cdn.simpleicons.org/disneyplus",
+      "logo_bg": "#001e62"
+    },
+    {
+      "id": "appletv",
+      "name": "Apple TV+",
+      "category": "video",
+      "active": true,
+      "promo_label": "7 días gratis",
+      "cta_url": "https://www.apple.com/es/apple-tv-plus/",
+      "logo": "https://cdn.simpleicons.org/appletv/000000",
+      "logo_bg": "#000"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "category": "music",
+      "active": true,
+      "promo_label": "3 meses gratis",
+      "cta_url": "https://www.spotify.com/es/premium/",
+      "logo": "https://cdn.simpleicons.org/spotify",
+      "logo_bg": "#191414"
+    },
+    {
+      "id": "applemusic",
+      "name": "Apple Music",
+      "category": "music",
+      "active": true,
+      "promo_label": "1 mes gratis",
+      "cta_url": "https://www.apple.com/es/apple-music/",
+      "logo": "https://cdn.simpleicons.org/applemusic/fa243c",
+      "logo_bg": "#000"
+    },
+    {
+      "id": "tidal",
+      "name": "Tidal",
+      "category": "music",
+      "active": true,
+      "promo_label": "30 días gratis",
+      "cta_url": "https://tidal.com/es/try",
+      "logo": "https://cdn.simpleicons.org/tidal",
+      "logo_bg": "#000"
+    },
+    {
+      "id": "qobuz",
+      "name": "Qobuz",
+      "category": "music",
+      "active": true,
+      "promo_label": "1 mes gratis",
+      "cta_url": "https://www.qobuz.com/es-es/music/subscribe",
+      "logo": "https://cdn.simpleicons.org/qobuz",
+      "logo_bg": "#192f5a"
+    },
+    {
+      "id": "deezer",
+      "name": "Deezer",
+      "category": "music",
+      "active": true,
+      "promo_label": "1 mes gratis",
+      "cta_url": "https://www.deezer.com/es/offers/premium",
+      "logo": "https://cdn.simpleicons.org/deezer",
+      "logo_bg": "#fff"
+    },
+    {
+      "id": "soundcloud",
+      "name": "SoundCloud",
+      "category": "music",
+      "active": true,
+      "promo_label": "30 días gratis",
+      "cta_url": "https://soundcloud.com/go",
+      "logo": "https://cdn.simpleicons.org/soundcloud",
+      "logo_bg": "#fff"
+    }
+  ]
+}
