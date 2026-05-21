@@ -1,106 +1,222 @@
 {
-  "last_updated": "2026-05-20T17:00:00Z",
-  "last_updated_display": "20 de mayo de 2026",
+  "last_updated": "2026-05-21T16:49:55Z",
+  "last_updated_display": "21 de mayo de 2026",
   "platforms": [
     {
       "id": "max",
       "name": "Max (HBO)",
       "category": "video",
-      "active": false,
-      "promo_label": null,
+      "url": "https://www.max.com/es/es/subscribe",
+      "fallback_url": "https://www.max.com/es/es",
+      "keywords": [
+        "prueba gratuita",
+        "gratis",
+        "free trial",
+        "días gratis",
+        "meses gratis"
+      ],
+      "negative_keywords": [
+        "ya no",
+        "sin prueba",
+        "eliminado"
+      ],
       "cta_url": "https://www.max.com/es/es/subscribe",
       "logo": "https://cdn.simpleicons.org/hbo/000000",
-      "logo_bg": "#000"
+      "logo_bg": "#000",
+      "active": false,
+      "promo_label": null,
+      "error": false
     },
     {
       "id": "skyshowtime",
       "name": "SkyShowtime",
       "category": "video",
-      "active": false,
-      "promo_label": null,
+      "url": "https://www.skyshowtime.com/es/upgrade",
+      "fallback_url": "https://www.skyshowtime.com/es",
+      "keywords": [
+        "prueba gratuita",
+        "gratis",
+        "free trial",
+        "días gratis",
+        "meses gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.skyshowtime.com/es/upgrade",
       "logo": "https://cdn.simpleicons.org/skyshowtime",
-      "logo_bg": "#0b0c10"
+      "logo_bg": "#0b0c10",
+      "active": false,
+      "promo_label": null,
+      "error": false
     },
     {
       "id": "disneyplus",
       "name": "Disney+",
       "category": "video",
-      "active": false,
-      "promo_label": null,
+      "url": "https://www.disneyplus.com/es-es/subscribe",
+      "fallback_url": "https://www.disneyplus.com/es-es",
+      "keywords": [
+        "prueba gratuita",
+        "gratis",
+        "free trial",
+        "días gratis",
+        "meses gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.disneyplus.com/es-es/subscribe",
       "logo": "https://cdn.simpleicons.org/disneyplus",
-      "logo_bg": "#001e62"
+      "logo_bg": "#001e62",
+      "active": false,
+      "promo_label": null,
+      "error": false
     },
     {
       "id": "appletv",
       "name": "Apple TV+",
       "category": "video",
-      "active": true,
-      "promo_label": "7 días gratis",
+      "url": "https://www.apple.com/es/apple-tv-plus/",
+      "fallback_url": null,
+      "keywords": [
+        "días gratis",
+        "meses gratis",
+        "prueba gratuita",
+        "free trial",
+        "gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.apple.com/es/apple-tv-plus/",
       "logo": "https://cdn.simpleicons.org/appletv/000000",
-      "logo_bg": "#000"
+      "logo_bg": "#000",
+      "active": true,
+      "promo_label": "Prueba gratuita disponible",
+      "error": false
     },
     {
       "id": "spotify",
       "name": "Spotify",
       "category": "music",
-      "active": true,
-      "promo_label": "3 meses gratis",
+      "url": "https://www.spotify.com/es/premium/",
+      "fallback_url": null,
+      "keywords": [
+        "meses gratis",
+        "mes gratis",
+        "prueba gratuita",
+        "free",
+        "gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.spotify.com/es/premium/",
       "logo": "https://cdn.simpleicons.org/spotify",
-      "logo_bg": "#191414"
+      "logo_bg": "#191414",
+      "active": true,
+      "promo_label": "Prueba gratuita disponible",
+      "error": false
     },
     {
       "id": "applemusic",
       "name": "Apple Music",
       "category": "music",
-      "active": true,
-      "promo_label": "1 mes gratis",
+      "url": "https://www.apple.com/es/apple-music/",
+      "fallback_url": null,
+      "keywords": [
+        "mes gratis",
+        "meses gratis",
+        "prueba gratuita",
+        "free trial"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.apple.com/es/apple-music/",
       "logo": "https://cdn.simpleicons.org/applemusic/fa243c",
-      "logo_bg": "#000"
+      "logo_bg": "#000",
+      "active": true,
+      "promo_label": "3 meses gratis",
+      "error": false
     },
     {
       "id": "tidal",
       "name": "Tidal",
       "category": "music",
-      "active": true,
-      "promo_label": "30 días gratis",
+      "url": "https://tidal.com/es/try",
+      "fallback_url": "https://tidal.com/es",
+      "keywords": [
+        "días gratis",
+        "meses gratis",
+        "prueba gratuita",
+        "free trial",
+        "gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://tidal.com/es/try",
       "logo": "https://cdn.simpleicons.org/tidal",
-      "logo_bg": "#000"
+      "logo_bg": "#000",
+      "active": false,
+      "promo_label": null,
+      "error": true
     },
     {
       "id": "qobuz",
       "name": "Qobuz",
       "category": "music",
-      "active": true,
-      "promo_label": "1 mes gratis",
+      "url": "https://www.qobuz.com/es-es/music/subscribe",
+      "fallback_url": "https://www.qobuz.com/es-es",
+      "keywords": [
+        "mes gratis",
+        "meses gratis",
+        "prueba gratuita",
+        "essai gratuit",
+        "free trial",
+        "gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.qobuz.com/es-es/music/subscribe",
       "logo": "https://cdn.simpleicons.org/qobuz",
-      "logo_bg": "#192f5a"
+      "logo_bg": "#192f5a",
+      "active": true,
+      "promo_label": "Prueba gratuita disponible",
+      "error": false
     },
     {
       "id": "deezer",
       "name": "Deezer",
       "category": "music",
-      "active": true,
-      "promo_label": "1 mes gratis",
+      "url": "https://www.deezer.com/es/offers/premium",
+      "fallback_url": "https://www.deezer.com/es/offers",
+      "keywords": [
+        "mes gratis",
+        "meses gratis",
+        "prueba gratuita",
+        "free trial",
+        "gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://www.deezer.com/es/offers/premium",
       "logo": "https://cdn.simpleicons.org/deezer",
-      "logo_bg": "#fff"
+      "logo_bg": "#fff",
+      "active": true,
+      "promo_label": "Prueba gratuita disponible",
+      "error": false
     },
     {
       "id": "soundcloud",
       "name": "SoundCloud",
       "category": "music",
-      "active": true,
-      "promo_label": "30 días gratis",
+      "url": "https://soundcloud.com/go",
+      "fallback_url": null,
+      "keywords": [
+        "days free",
+        "day free",
+        "días gratis",
+        "mes gratis",
+        "prueba gratuita",
+        "free trial",
+        "gratis"
+      ],
+      "negative_keywords": [],
       "cta_url": "https://soundcloud.com/go",
       "logo": "https://cdn.simpleicons.org/soundcloud",
-      "logo_bg": "#fff"
+      "logo_bg": "#fff",
+      "active": false,
+      "promo_label": null,
+      "error": false
     }
   ]
 }
