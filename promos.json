@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-04T17:35:52Z",
-  "last_updated_display": "4 de junio de 2026",
+  "last_updated": "2026-06-05T16:34:26Z",
+  "last_updated_display": "5 de junio de 2026",
   "platforms": [
     {
       "id": "max",
@@ -216,7 +216,7 @@
       "logo_bg": "#fff",
       "active": false,
       "promo_label": null,
-      "error": true
+      "error": false
     }
   ]
 }
