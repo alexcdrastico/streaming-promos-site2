@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-13T12:18:32Z",
-  "last_updated_display": "13 de junio de 2026",
+  "last_updated": "2026-06-14T13:16:17Z",
+  "last_updated_display": "14 de junio de 2026",
   "platforms": [
     {
       "id": "max",
@@ -170,9 +170,9 @@
       "cta_url": "https://www.qobuz.com/es-es/music/subscribe",
       "logo": "https://cdn.simpleicons.org/qobuz",
       "logo_bg": "#192f5a",
-      "active": true,
-      "promo_label": "Prueba gratuita disponible",
-      "error": false
+      "active": false,
+      "promo_label": null,
+      "error": true
     },
     {
       "id": "deezer",
@@ -216,7 +216,7 @@
       "logo_bg": "#fff",
       "active": false,
       "promo_label": null,
-      "error": true
+      "error": false
     }
   ]
 }
