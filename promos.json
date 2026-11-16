@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-15T14:25:50Z",
-  "last_updated_display": "15 de noviembre de 2026",
+  "last_updated": "2026-11-16T16:38:08Z",
+  "last_updated_display": "16 de noviembre de 2026",
   "platforms": [
     {
       "id": "max",
@@ -191,9 +191,9 @@
       "cta_url": "https://www.deezer.com/es/offers/premium",
       "logo": "https://cdn.simpleicons.org/deezer",
       "logo_bg": "#fff",
-      "active": true,
-      "promo_label": "Prueba gratuita disponible",
-      "error": false
+      "active": false,
+      "promo_label": null,
+      "error": true
     },
     {
       "id": "soundcloud",
